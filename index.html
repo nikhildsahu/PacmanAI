@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infinit Pacman</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <!-- <script src="Cell.js"></script>
+    <script src="AStar.js"></script> -->
+    <script src="helper.js"></script>
+    <script src="Cell.js"></script>
+    <script src="Enemy.js"></script>
+    <script src="Player.js"></script>
+    <script src="sketch.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <style>
+      #defaultCanvas0 {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+      }
+      body {
+        background: black;
+      }
+      * {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+      }
+      p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="color: white"><center>Pacman Maze Solver</center></h1>
+
+    <h2 style="position: absolute; right: 12%;top:20%">Next Node Selection</h2>
+    <h3 style="position: absolute; right: 12%;top:30%" id="n0">-</h3>
+    <h3 style="position: absolute; right: 12%;top:35%" id="n1">-</h3>
+    <h3 style="position: absolute; right: 12%;top:40%" id="n2">-</h3>
+    <h3 style="position: absolute; right: 12%;top:45%" id="n3">-</h3>
+    <h3 style="position: absolute; right: 12%;top:55%" id="n4">-</h3>
+
+    <h3 style="position: absolute; right: 20%;top:30%">Neighbour 1</h3>
+    <h3 style="position: absolute; right: 20%;top:35%">Neighbour 2</h3>
+    <h3 style="position: absolute; right: 20%;top:40%">Neighbour 3</h3>
+    <h3 style="position: absolute; right: 20%;top:45%">Neighbour 4</h3>
+    <h3 style="position: absolute; right: 15%;top:55%">
+      Selected Node ( f(n) )
+    </h3>
+  </body>
+</html>
