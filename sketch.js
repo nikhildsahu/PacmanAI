@@ -9,9 +9,9 @@ let scoreStr;
 let frameRateStr;
 
 let realTime = true;
-let framerate = 15;
+let framerate = 12;
 let frameCount = 0;
-let updateFrequency = 20;
+let updateFrequency = 12;
 
 let path;
 let current;
